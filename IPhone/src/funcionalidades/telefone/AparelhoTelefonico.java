@@ -5,10 +5,10 @@ public class AparelhoTelefonico implements Telefone{
         System.out.println("Ligando para "+ numero);
     }
     public void atender(){
-        System.out.println("Tocando... Atender??");
+        System.out.println("Atendendo a Ligação");
     }
     public void iniciarCorreioVoz(){
         System.out.println("Correio de voz iniciado");
     }
-        
+       
 }
