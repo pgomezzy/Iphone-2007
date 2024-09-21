@@ -1,17 +1,23 @@
 package dispositivo;
-import dispositivo.musica.ReprodutorMusical;
-import dispositivo.telefone.AparelhoTelefonico;
-public class IPhone {
-    public static void main(String[] args) throws Exception {
-        ReprodutorMusical ipod = new ReprodutorMusical();
-        ipod.tocar();
-        ipod.selecionarMusica("Heather");
-        ipod.pausar();
-        AparelhoTelefonico telefone = new AparelhoTelefonico();
-        telefone.ligar("85996004286");
-        telefone.atender();
-        telefone.iniciarCorreioVoz();
-        
 
+public class IPhone {
+    public void Ligar(){
+        System.out.println("Ligando o celular");
+    }
+    public void funcionalidade(String escolha){
+        switch (escolha) {
+            case "telefone":
+                System.out.println("entrando em telefone");
+                break;
+            case "internet":
+            System.out.println("entrando em internet");
+                break;
+            case "musica":
+            System.out.println("entrando em musica");
+                break;
+            default:
+            System.out.println("Escolha uma das opções");
+                break;
+        }
     }
 }
