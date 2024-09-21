@@ -1,17 +1,11 @@
 package funcionalidades.musica;
 
-public class Musica implements ReprodutorMusical {
-    
-    public void tocar(){
-        System.out.println("Dando play na musica");
-    }
+public interface Musica 
+{
+    public void tocar();
 
- 
-    public void pausar()   {
-        System.out.println("Pausando musica");
-    }
+    public void pausar();
 
-    public void selecionarMusica(String musica) {
-        System.out.println("Musica selecionada: "+ musica);
-    }
+    public void selecionarMusica(String musica);
+
 }
