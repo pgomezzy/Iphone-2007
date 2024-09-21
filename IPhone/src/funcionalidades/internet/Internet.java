@@ -1,4 +1,4 @@
-package dispositivo.internet;
+package funcionalidades.internet;
 
 public class Internet implements Navegador {
     

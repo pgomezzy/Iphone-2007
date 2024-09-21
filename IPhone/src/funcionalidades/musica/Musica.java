@@ -1,4 +1,4 @@
-package dispositivo.musica;
+package funcionalidades.musica;
 
 public class Musica implements ReprodutorMusical {
     

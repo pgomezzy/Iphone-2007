@@ -1,10 +1,10 @@
-package dispositivo.internet;
+package funcionalidades.internet;
 
 public interface Navegador {
 
     public void exibirPagina(String url);
 
     public void adicionarNovaAba();
-    
+
     public void atualizarPagina();
 }
